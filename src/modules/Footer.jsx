@@ -1,23 +1,66 @@
 "use client";
 import React from "react";
+import Logo from "@/assets/nav/logo.svg";
 // import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer>
-      <div className="mx-auto px-4 sm:px-6">
-        <div className="grid sm:grid-cols-12 gap-8 py-8 md:py-12 border-t border-muted mt-36">
+      <div className="mx-auto px-4 sm:px-6 ">
+        <div className="grid sm:grid-cols-12 gap-8 py-8 md:py-12 border-t border-gray-200 mt-36">
           <div className="sm:col-span-12 lg:col-span-3">
             <div className="mb-2">
-              <p>Frames By Half Engineers</p>
+              <div className="flex flex-col cursor-pointer ">
+                <div className="flex items-end w-15 mb-3 ml-5 ">
+                  <svg
+                    className="my-1.5 -mx-0.5"
+                    width="28"
+                    height="28"
+                    viewBox="0 0 150 181"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="76"
+                      y="69"
+                      width="37"
+                      height="112"
+                      fill="#FFBCEF"
+                    />
+                    <rect
+                      x="150"
+                      y="69"
+                      width="34"
+                      height="74"
+                      transform="rotate(90 150 69)"
+                      fill="#FFBCEF"
+                    />
+                    <rect width="40" height="144" fill="#FFBCEF" />
+                    <rect
+                      x="113"
+                      width="32"
+                      height="113"
+                      transform="rotate(90 113 0)"
+                      fill="#FFBCEF"
+                    />
+                  </svg>
+                  <p className=" -my-2 text-[2.3rem] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#FEBBED] to-[#B977FE]">
+                    ames </p>
+                </div>
+                <div className="ml-5">
+                  <p className="text-xs leading-tight -mt-3 text-muted-foreground">
+                    - by Half Engineers
+                  </p>
+                </div>
+              </div>
 
               {/* Social as */}
 
-              <div className="mt-6">
-                <ul className="flex mb-4 md:order-1  md:mb-0">
+              <div className="my-9">
+                <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
                   <li>
                     <a
                       href="#0"
-                      className="flex justify-center items-center bg-secondary hover:bg-transparent rounded-full shadow transition duration-150 ease-in-out"
+                      className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
                       aria-label="Twitter"
                     >
                       <svg
@@ -33,7 +76,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="#0"
-                      className="flex justify-center items-center bg-secondary hover:bg-transparent rounded-full shadow transition duration-150 ease-in-out"
+                      className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
                       aria-label="Twitter"
                     >
                       <svg
@@ -48,7 +91,7 @@ const Footer = () => {
                   <li className="ml-4">
                     <a
                       href="#0"
-                      className="flex justify-center items-center bg-secondary hover:bg-transparent rounded-full shadow transition duration-150 ease-in-out"
+                      className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
                       aria-label="Github"
                     >
                       <svg
@@ -64,7 +107,7 @@ const Footer = () => {
                   <li className="ml-4">
                     <a
                       href="#0"
-                      className="flex justify-center items-center bg-secondary hover:bg-transparent rounded-full shadow transition duration-150 ease-in-out"
+                      className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
                       aria-label="Facebook"
                     >
                       <svg
@@ -82,14 +125,12 @@ const Footer = () => {
           </div>
 
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-muted-foreground font-medium mb-2">
-              Quick Links
-            </h6>
+            <h6 className="text-gray-800 font-medium mb-2">Quick Links</h6>
             <ul className="text-sm">
               <li className="mb-2">
                 <a
                   href="#"
-                  className="text-gray-300 hover:text-muted-foreground transition duration-150 ease-in-out"
+                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
                   Home
                 </a>
@@ -97,7 +138,7 @@ const Footer = () => {
               <li className="mb-2">
                 <a
                   href="#"
-                  className="text-gray-300 hover:text-muted-foreground transition duration-150 ease-in-out"
+                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
                   Category
                 </a>
@@ -105,7 +146,7 @@ const Footer = () => {
               <li className="mb-2">
                 <a
                   href="#"
-                  className="text-gray-300 hover:text-muted-foreground transition duration-150 ease-in-out"
+                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
                   Trendy
                 </a>
@@ -114,7 +155,7 @@ const Footer = () => {
               <li className="mb-2">
                 <a
                   href="#"
-                  className="text-gray-300 hover:text-muted-foreground transition duration-150 ease-in-out"
+                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
                   Contact Us
                 </a>
@@ -123,10 +164,8 @@ const Footer = () => {
           </div>
 
           <div className="sm:col-span-6 md:col-span-3">
-            <h6 className="text-muted-foreground font-medium mb-2">
-              Any Queries
-            </h6>
-            <p className="text-sm text-muted-foreground mb-4">
+            <h6 className="text-gray-800 font-medium mb-2">Any Queries</h6>
+            <p className="text-sm text-gray-600 mb-4">
               We will try to resolve,&nbsp; just enter your email here.
             </p>
 
@@ -140,7 +179,7 @@ const Footer = () => {
                     <input
                       id="newsletter"
                       type="email"
-                      className="form-input w-full text-foreground px-3 py-2 pr-12 text-sm focus:outline-none bg-secondary rounded-lg"
+                      className="form-input w-full text-gray-800 px-3 py-2 pr-12 text-sm"
                       placeholder="Your Email required"
                     />
                     <button
@@ -149,7 +188,7 @@ const Footer = () => {
                       aria-label="Subscribe"
                     >
                       <span
-                        className="absolute inset-0 right-auto w-px -ml-px my-2 bg-foreground"
+                        className="absolute inset-0 right-auto w-px -ml-px my-2 bg-gray-300"
                         aria-hidden="true"
                       ></span>
                       <svg
@@ -170,7 +209,7 @@ const Footer = () => {
             </form>
           </div>
         </div>
-        <div className="flex items-center justify-center py-2 -my-4 md:py-8 border-t border-muted">
+        <div className="flex items-center justify-center py-2 -my-4 md:py-8 border-t border-gray-300">
           <div className="text-sm text-center text-gray-600 mr-4">
             Thanks for visiting this website 😊. Sending love from our team
           </div>
