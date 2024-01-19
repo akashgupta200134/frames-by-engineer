@@ -13,8 +13,8 @@ const Footer = () => {
                 <div className="flex items-end w-15 mb-3 ml-5 ">
                   <svg
                     className="my-1.5 -mx-0.5"
-                    width="28"
-                    height="28"
+                    width="25"
+                    height="25"
                     viewBox="0 0 150 181"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
