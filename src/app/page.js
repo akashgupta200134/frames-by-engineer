@@ -1,13 +1,10 @@
-import { Nav } from "@/modules/Nav";
+"use client";
+
 import HomePage from "@/pages/HomePage";
 import React from "react";
 
-const page = () => {
-  return (
-    <div>
-      <HomePage />
-    </div>
-  );
+const Page = () => {
+  return <HomePage />;
 };
 
-export default page;
+export default Page;
