@@ -18,7 +18,7 @@ const HeroSection = () => {
               variant={"outline"}
               className="border py-2 cursor-pointer px-5"
             >
-              Abolutely hot collections🔥
+              Absolutely hot collections🔥
             </Badge>
           </div>
           <p className="md:text-7xl text-4xl font-extrabold mt-5">
@@ -58,6 +58,8 @@ const HeroSection = () => {
           Buy Now
         </Button> */}
       </div>
+
+      
     </section>
   );
 };
